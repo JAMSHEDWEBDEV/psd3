@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+#nav{
+	background-color:#e6e6e6;
+}
+.navbar-nav .nav-item .nav-link{
+	padding: 30px 15px;
+	font-family: Robotocondensed;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	transition: all linear .4s;
+}
+.navbar-nav .nav-item .nav-link.active{
+	color:#1abb9c;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color:#1abb9c ;
+	cursor:pointer ;
+	transition: all linear .4s;
+}
+
+/*banner part css start*/
+
+.banner_image{
+	position: relative;
+}
+
+.banner_overlay{
+	padding: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.banner_overlay h1{
+	color: white;
+	font-family: Robotoslab;
+	font-size: 40px;
+	font-weight: bold;
+}
+.banner_overlay h4{
+	text-align: center;
+	margin-top: 20px;
+	font-family: Robotoslab;
+	font-size: 32px;
+	font-weight: bold;
+	color: #8f9092;
+}
+.banner_overlay a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+	font-family: Robotocondensed;
+	font-size: 14px;
+
+}
+.banner_overlay button{
+	height: 40px;
+	width: 150px;
+	background-color:#3f8dbf;
+	border: none;
+	border-radius: 5px;
+}
+
+/*banner part css end*/
+
+/*service part css start*/
+
+#service{
+	background-color:#f7f7f7;
+}
+
+.service_icon{
+    text-align: center;
+    margin: 60px 0 30px;
+}
+.service_icon img{
+	height: 80px;
+	width: 80px;
+	padding: 25px;
+	border-radius: 50%;
+	background-color:#9d9abf;
+}
+.image2 img{
+	background-color:#d2514b;
+}
+.image3 img{
+	background-color:#66a3c6;
+}
+.image4 img{
+	background-color:#e8c04f;
+	padding:25px 15px;
+}
+
+/*.service_icon i{
+    text-align: center;
+	font-size: 10px;
+	height: 100px;
+	width: 100px;
+	background-color:#9d9abf;
+	border: none;
+	line-height: 70px;
+	border-radius: 50%;
+	color: white;
+}*/
+.service_content{
+	text-align: center;
+	margin-bottom: 61px;
+}
+.service_content h1{
+	font-family: Robotoslab;
+	font-size: 18px;
+	font-weight: bold;
+	color:#4e4e4e;
+}
+.service_content p{
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	color: #616161;
+}
+hr{
+	background-color: #dcdcdc;
+	margin-bottom: 0;
+}
+/*service part css end*/
+
+/*work section css start*/
+
+#work{
+	background-color: #f7f7f7;
+}
+
+.work_heading h4{
+	font-family: Robotocondensed;
+	font-size: 18px;
+	font-weight: bold;
+	color: #4e4e4e;
+	margin: 60px 0 20px;
+}
+.work_content h2{
+	font-family: Robotoslab;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 0 0;
+	color: #4e4e4e;
+}
+.work_content h5{
+    font-family: Robotoslab;
+	font-size: 13px;
+	font-weight: 400;
+	color: #bebebe;
+	margin-bottom: 30px;
+}
+.work_content p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #818181;
+}
+.work_content{
+	margin-bottom: 60px;
+}
+
+/*work section css end*/
+
+/*testimonial part css start*/
+
+#testimonial{
+	background-color: #efefef;
+}
+.testi_icom i{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0 20px;
+	font-size: 40px;
+	color: #dcdcdc;
+}
+
+.testi_content p{
+	text-align: center;
+	font-family: Robotoslab;
+	font-size: 20px;
+	font-weight: 400;
+	color: #a1a1a1;
+	margin-bottom: 40px;
+}
+
+/*testimonial part css end*/
+
+/*footer part css start*/
+
+#footer{
+	background-color: black;
+}
+
+.footer_heading h3{
+	font-family: Robotocondensed;
+	font-size: 18px;
+	font-weight: 700;
+	color: #6c6c6c;
+	text-transform: uppercase;
+	margin: 50px 0 25px;
+}
+.footer_heading p{
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	color: #cacaca;
+	margin-bottom: 35px;
+}
+.foot_icon1 i{
+	margin-bottom: 27px;
+}
+.footer_content p{
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	color: #cacaca;
+}
+.col2_icom i{
+	margin:20px 0 40px;
+}
+.col2_content p{
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	color: #cacaca;
+	line-height: 27px;
+	margin: 5px;
+}
+.col3_content p{
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	color: #cacaca;
+	line-height: 33px;
+}
+.col4_content p{
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	color: #cacaca;
+	line-height: 33px;
+}
+span{
+	color:#efefef;
+}
+.copy_right p{
+	padding: 40px 0;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	color: #cacaca;
+}
+
+/*footer part css end*/

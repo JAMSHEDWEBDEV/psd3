@@ -1,0 +1,307 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+@media (min-width: 320px) and (max-width: 575px){
+
+/*navigation part responsive code start*/
+
+.navbar-nav .nav-item .nav-link{
+	padding: 10px 0;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: white;
+}
+
+/*navigation part responsive code end*/
+
+
+/*banner part responsive code start*/
+.banner_overlay h1{
+	font-size: 22px;
+	margin:-40px 0 0 -130px;
+}
+.banner_overlay h4{
+	margin: 40px 0 0 -150px;
+	font-size: 20px;
+}
+.banner_overlay button{
+	margin: 0 0 0 -100px;
+	transition: all linear .4s;
+}
+.banner_overlay button:hover{
+	background-color: white;
+	transition: all linear .4s;
+}
+
+
+/*banner part responsive code end*/
+
+
+/*work section part responsive code start*/
+
+.work_heading h4{
+	text-align: center;
+}
+.work_content h2{
+	text-align: center;
+}
+.work_content h5{
+    text-align: center;
+}
+.work_content p{
+    text-align: center;
+}
+
+
+/*work section part responsive code end*/
+
+/*footer part responsive code start*/
+
+.footer_heading h3{
+	text-align: center;
+}
+.footer_heading p{
+	text-align: center;
+}
+.foot_icon1 i{
+   display: flex;
+}
+.footer_content p{
+	margin:0 0 20px 30px;
+}
+.footer_content{
+	margin-top: -130px;
+}
+.col2_icom i{
+    display: flex;
+    margin-bottom: 80px;
+}
+.col2_content{
+  margin-top: -300px;
+}
+.col2_content p{
+	margin:0 0 20px 30px;
+}
+.col3_content p{
+	text-align: center;
+}
+.col4_content p{
+	text-align: center;
+}
+.copy_right p{
+	text-align: center;
+}
+/*footer part responsive code end*/
+
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+/*navigation part responsive code start*/
+
+.navbar-nav .nav-item .nav-link{
+	padding: 15px 0;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: gray;
+	color: navy;
+}
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/ 
+.banner_overlay h1{
+   margin: -40px -200px 0 -150px;
+
+} 
+.banner_overlay h4 {
+     margin: 50px -200px 0 -180px;
+}
+.banner_overlay button{
+	transition: all linear .4s;
+	border: 1px solid blue;
+}
+.banner_overlay button:hover{
+     background-color: transparent;
+     border: 1px solid blue;
+     color: white;
+     transition: all linear .4s;
+} 
+
+/*banner part responsive code end*/
+
+/*work section part responsive code start*/
+  
+  .work_heading h4{
+  	text-align: center;
+  }
+  .work_content h2{
+  	text-align: center;
+  }
+  .work_content h5{
+     text-align: center;
+  }
+  .work_content p{
+     text-align: center;
+  }
+
+/*work section part responsive code end*/
+
+/*footer part responsive code start*/
+
+.footer_heading h3{
+	text-align: center;
+}
+.footer_heading p{
+	text-align: center;
+}
+.foot_icon1 i{
+	display: flex;
+	justify-content: right;
+	align-items: flex-end;
+}
+.footer_content p{
+	margin-bottom: 20px;
+}
+.col2_icom i{
+	display: flex;
+	justify-content: right;
+	align-items: flex-end;
+}
+.col2_content{
+	margin-top: 15px;
+}
+.col2_content p{
+	margin-bottom: 15px;
+}
+.col3_content p{
+	text-align: center;
+}
+.col4_content p{
+	text-align: center;
+}
+.copy_right p{
+	text-align: center;
+}
+
+/*footer part responsive code end*/
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/*navigation part responsive code start*/
+
+.navbar-nav .nav-item .nav-link{
+	padding: 10px 0;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: whitesmoke;
+}
+
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/
+
+.banner_overlay h1{
+	margin: 0 -150px 0 -120px;
+	text-align: center;
+}
+.banner_overlay button{
+	transition: all linear .4s;
+}
+.banner_overlay button:hover{
+      background-color: whitesmoke;
+      transition: all linear .4s;
+}
+
+/*banner part responsive code end*/
+
+/*footer part responsive code start*/
+
+.foot_icon1 i{
+	margin-bottom: 20px;
+}
+.footer_content p{
+	font-size: 12px;
+}
+.col2_icom i{
+	margin-bottom: 65px;
+}
+.col2_content p{
+	font-size: 12px;
+	line-height: 22px;
+}
+.col3_content p{
+	font-size: 12px;
+}
+.col4_content p{
+	font-size: 12px;
+}
+.copy_right p{
+	text-align: center;
+}
+
+/*footer part responsive code end*/
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/*banner part responsive code start*/
+
+.banner_overlay h1{
+	margin: 0 -30px;
+	text-align: center;
+}
+.banner_overlay button{
+	 transition: all linear .4s;
+}
+.banner_overlay button:hover{
+    color: teal;
+    background-color: white;
+    transition: all linear .4s;
+}
+
+/*banner part responsive code end*/
+
+/*footer part responsive code start*/
+
+.copy_right p{
+	text-align: center;
+}
+
+/*footer part responsive code end*/
+
+
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+/*banner part responsive code start*/
+
+.banner_overlay h1{
+	text-align: center;
+}
+
+/*banner part responsive code end*/
+
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+
+@media (min-width: 1400px) and (max-width: px) {...}
